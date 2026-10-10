@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="acc_bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF4EA"/>
+    </radialGradient>
+    <linearGradient id="acc_gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#acc_bg)"/>
+  <rect x="8" y="8" width="384" height="284" rx="14" fill="none" stroke="#E6DDD0" stroke-width="1.5"/>
+
+  <!-- Iconic Conical Hat (Nón Lá) & Golden Apricot Hairpin -->
+  <g transform="translate(190, 135)">
+    <!-- Nón Lá Conical Hat -->
+    <polygon points="0,-65 -85,35 85,35" fill="#FAF5EC" stroke="#C5B8A5" stroke-width="1.4"/>
+    <ellipse cx="0" cy="35" rx="85" ry="16" fill="#F0E5D4" stroke="#C5B8A5" stroke-width="1"/>
+    <!-- Rings -->
+    <ellipse cx="0" cy="-40" rx="22" ry="4" fill="none" stroke="#8C7662" stroke-width="0.8" opacity="0.5"/>
+    <ellipse cx="0" cy="-15" rx="46" ry="8" fill="none" stroke="#8C7662" stroke-width="0.8" opacity="0.5"/>
+    <ellipse cx="0" cy="10" rx="68" ry="12" fill="none" stroke="#8C7662" stroke-width="0.8" opacity="0.5"/>
+    <!-- Pink Ribbon Strap -->
+    <path d="M -50,35 Q -30,85 -5,115" stroke="#CF8481" stroke-width="2.6" fill="none"/>
+    <path d="M 50,35 Q 30,85 5,115" stroke="#CF8481" stroke-width="2.6" fill="none"/>
+
+    <!-- Gilded Apricot Blossom Hairpin (Trâm Cài Hoa Mai) -->
+    <g transform="translate(60, -30) rotate(25)">
+      <line x1="-30" y1="40" x2="35" y2="-40" stroke="url(#acc_gold)" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="35" cy="-40" r="12" fill="url(#acc_gold)"/>
+      <circle cx="35" cy="-40" r="4.5" fill="#FFFFFF"/>
+      <circle cx="45" cy="-30" r="4" fill="#FAF6F0"/>
+      <circle cx="25" cy="-50" r="4" fill="#FAF6F0"/>
+    </g>
+  </g>
+</svg>

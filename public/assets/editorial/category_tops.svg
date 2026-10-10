@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="top_bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF4EA"/>
+    </radialGradient>
+    <linearGradient id="top_crimson" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A52A2A"/>
+      <stop offset="100%" stop-color="#6E1A18"/>
+    </linearGradient>
+    <linearGradient id="top_gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#top_bg)"/>
+  <rect x="8" y="8" width="384" height="284" rx="14" fill="none" stroke="#E6DDD0" stroke-width="1.5"/>
+
+  <!-- High-Fashion Áo Dài Tunic Silhouette -->
+  <g transform="translate(200, 140)">
+    <!-- Shoulders & Sleeves -->
+    <path d="M -20,-80 L -85,-10 L -68,0 L -18,-50 L -25,120 C 0,130 0,130 25,120 L 18,-50 L 68,0 L 85,-10 L 20,-80 Z" fill="url(#top_crimson)"/>
+    <!-- High Collar 3cm -->
+    <rect x="-14" y="-95" width="28" height="18" fill="url(#top_crimson)" rx="2"/>
+    <line x1="-14" y1="-95" x2="14" y2="-95" stroke="url(#top_gold)" stroke-width="2"/>
+    <!-- Diagonal Placket & Knot Buttons -->
+    <path d="M 0,-80 Q 20,-60 22,-20" stroke="url(#top_gold)" stroke-width="1.8" fill="none"/>
+    <circle cx="8" cy="-68" r="2.8" fill="url(#top_gold)"/>
+    <circle cx="16" cy="-52" r="2.8" fill="url(#top_gold)"/>
+    <circle cx="21" cy="-35" r="2.8" fill="url(#top_gold)"/>
+    <!-- Lotus Embroidery Accent -->
+    <circle cx="0" cy="15" r="14" fill="none" stroke="url(#top_gold)" stroke-width="1.2" opacity="0.8"/>
+    <path d="M 0,5 Q 10,15 0,25 Q -10,15 0,5 Z" fill="url(#top_gold)" opacity="0.75"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_non_quai_thao" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_non_quai_thao" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_non_quai_thao" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_non_quai_thao)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#FDE68A" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Large Circular Flat Hat with Flowing Silk Ribbon Ties -->
+      <ellipse cx="0" cy="-5" rx="55" ry="24" fill="#FDE68A" stroke="#C5A059" stroke-width="1.4"/>
+      <ellipse cx="0" cy="-8" rx="20" ry="10" fill="#EAB308" stroke="#A16207" stroke-width="1"/>
+      <!-- Multicolored Silk Ribbons (Quai Thao) -->
+      <path d="M -25,5 C -28,25 -22,48 -25,62" stroke="#8B2624" stroke-width="3" fill="none"/>
+      <path d="M -22,5 C -25,25 -19,48 -22,62" stroke="#C5A059" stroke-width="2" fill="none"/>
+      <path d="M 25,5 C 28,25 22,48 25,62" stroke="#8B2624" stroke-width="3" fill="none"/>
+      <path d="M 22,5 C 25,25 19,48 22,62" stroke="#C5A059" stroke-width="2" fill="none"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Nón Quai Thao Kinh Bắc</text>
+</svg>

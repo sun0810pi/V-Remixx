@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_ao_nhat_binh_court" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_ao_nhat_binh_court" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B2624"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_ao_nhat_binh_court" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_ao_nhat_binh_court)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#8B2624" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Cloud Collar Robe with 5-Color Rainbow Cuffs -->
+      <path d="M -16,-50 L -54,-10 L -38, -2 L -14,-28 L -18,50 C 0,56 0,56 18,50 L 14,-28 L 38,-2 L 54,-10 L 16,-50 Z" fill="#8B2624"/>
+      <!-- Rectangular Embroidered Cloud Collar (Cổ Nhật Bình) -->
+      <rect x="-14" y="-48" width="28" height="42" fill="#FAF6F0" stroke="url(#gold_ao_nhat_binh_court)" stroke-width="1.8" rx="2"/>
+      <path d="M -8,-40 L 8,-40 L 8,-12 L -8,-12 Z" fill="none" stroke="#8B2624" stroke-width="1.2"/>
+      <circle cx="0" cy="-26" r="3" fill="#2D5A47"/>
+      <!-- Five Colored Cuffs (Ngũ Sắc) on Sleeves -->
+      <rect x="-50" y="-12" width="12" height="2" fill="#8B2624"/>
+      <rect x="-50" y="-10" width="12" height="2" fill="#C5A059"/>
+      <rect x="-50" y="-8" width="12" height="2" fill="#2D5A47"/>
+      <rect x="-50" y="-6" width="12" height="2" fill="#FAF6F0"/>
+      <rect x="-50" y="-4" width="12" height="2" fill="#1E2C3D"/>
+      <rect x="38" y="-12" width="12" height="2" fill="#8B2624"/>
+      <rect x="38" y="-10" width="12" height="2" fill="#C5A059"/>
+      <rect x="38" y="-8" width="12" height="2" fill="#2D5A47"/>
+      <rect x="38" y="-6" width="12" height="2" fill="#FAF6F0"/>
+      <rect x="38" y="-4" width="12" height="2" fill="#1E2C3D"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Áo Nhật Bình Cung Đình</text>
+</svg>

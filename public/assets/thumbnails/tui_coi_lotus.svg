@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_tui_coi_lotus" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_tui_coi_lotus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_tui_coi_lotus" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_tui_coi_lotus)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#C5A059" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Circular Seagrass Handbag with Handles and Embroidered Lotus -->
+      <circle cx="0" cy="10" r="28" fill="#C5A059" stroke="#9A7836" stroke-width="2"/>
+      <path d="M -12,-10 C -12,-26 12,-26 12,-10" stroke="#6E3C29" stroke-width="3.5" fill="none"/>
+      <!-- Embroidered Pink Lotus -->
+      <path d="M 0,2 C -6,12 -3,22 0,24 C 3,22 6,12 0,2 Z" fill="#CF8481"/>
+      <path d="M -5,6 C -12,14 -10,22 -6,24 C -2,20 -4,12 -5,6 Z" fill="#E28F95"/>
+      <path d="M 5,6 C 12,14 10,22 6,24 C 2,20 4,12 5,6 Z" fill="#E28F95"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Túi Cói Thêu Sen</text>
+</svg>

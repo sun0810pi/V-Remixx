@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="sh_bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF4EA"/>
+    </radialGradient>
+    <linearGradient id="sh_gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sh_bg)"/>
+  <rect x="8" y="8" width="384" height="284" rx="14" fill="none" stroke="#E6DDD0" stroke-width="1.5"/>
+
+  <!-- Pair of Traditional Guốc Mộc & Embroidered Velvet Slippers -->
+  <g transform="translate(200, 150)">
+    <!-- Left: Carved Wooden Clog (Guốc Mộc) -->
+    <g transform="translate(-70, -10)">
+      <!-- Wood Sole -->
+      <path d="M -50,-10 C -20,-14 20,-12 45,-5 C 50,-2 50,15 45,18 C 30,22 -30,22 -45,18 C -52,14 -52,-5 -50,-10 Z" fill="#8C5338" stroke="#6B3A22" stroke-width="1.2"/>
+      <!-- Wooden Heel Blocks -->
+      <polygon points="-42,16 -20,16 -24,42 -45,42" fill="#6B3A22"/>
+      <polygon points="18,16 38,16 34,42 14,42" fill="#6B3A22"/>
+      <!-- Red Velvet Strap (Quai Nhung Đỏ) -->
+      <path d="M -15,-13 Q 5,-45 25,-8" stroke="#8B2624" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <path d="M -15,-13 Q 5,-45 25,-8" stroke="#A52A2A" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Right: Embroidered Velvet Slipper (Hài Nhung Thêu) -->
+    <g transform="translate(70, -10)">
+      <path d="M -45,-12 C -20,-16 25,-12 45,5 C 52,12 48,22 42,22 C 20,22 -25,22 -42,18 C -48,14 -48,-6 -45,-12 Z" fill="#8B2624" stroke="#681816" stroke-width="1.2"/>
+      <!-- Upturned Toe (Mũi Hài Cong) -->
+      <path d="M 40,5 Q 52,-10 46,-18 Q 40,-12 36,0" fill="url(#sh_gold)"/>
+      <!-- Gold Embroidered Phoenix / Cloud Motif -->
+      <path d="M -15,2 Q 0,-8 15,4 Q 0,10 -15,2 Z" fill="none" stroke="url(#sh_gold)" stroke-width="1.6"/>
+      <circle cx="0" cy="3" r="2.5" fill="url(#sh_gold)"/>
+    </g>
+  </g>
+</svg>

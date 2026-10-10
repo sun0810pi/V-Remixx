@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_ao_dai_traditional" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_ao_dai_traditional" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B2624"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_ao_dai_traditional" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_ao_dai_traditional)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#8B2624" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Standing Collar & Long Panels -->
+      <path d="M -15,-52 L -48,-15 L -36,-8 L -12,-35 L -16,48 C 0,55 0,55 16,48 L 12,-35 L 36,-8 L 48,-15 L 15,-52 Z" fill="#8B2624"/>
+      <rect x="-8" y="-60" width="16" height="10" fill="#8B2624" rx="1"/>
+      <line x1="-8" y1="-60" x2="8" y2="-60" stroke="url(#gold_ao_dai_traditional)" stroke-width="1.6"/>
+      <!-- Diagonal Placket & Buttons -->
+      <path d="M 0,-50 Q 14,-38 15,-10" stroke="url(#gold_ao_dai_traditional)" stroke-width="1.4" fill="none"/>
+      <circle cx="6" cy="-42" r="2.2" fill="url(#gold_ao_dai_traditional)"/>
+      <circle cx="11" cy="-30" r="2.2" fill="url(#gold_ao_dai_traditional)"/>
+      <circle cx="14" cy="-18" r="2.2" fill="url(#gold_ao_dai_traditional)"/>
+      <circle cx="0" cy="12" r="8" fill="none" stroke="url(#gold_ao_dai_traditional)" stroke-width="1" opacity="0.8"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Áo Dài Cổ Đứng</text>
+</svg>

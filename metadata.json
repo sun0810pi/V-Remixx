@@ -1,0 +1,6 @@
+{
+  "name": "V-Remix: Vietnamese Fashion Dress-Up & Styling Studio",
+  "description": "An interactive Vietnamese fashion dress-up game and virtual styling studio blending cultural heritage, contemporary remixing, and AI-assisted outfit creation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

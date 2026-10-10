@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_ao_giao_linh" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_ao_giao_linh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2C3D"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_ao_giao_linh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_ao_giao_linh)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#1E2C3D" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Crossover Collar Right over Left with Waist Sash -->
+      <path d="M -15,-48 L -50,-10 L -38, -2 L -14,-30 L -18,48 C 0,54 0,54 18,48 L 14,-30 L 38,-2 L 50,-10 L 15,-48 Z" fill="#1E2C3D"/>
+      <!-- Distinct Cross Collar V Bands -->
+      <path d="M -14,-46 L 12,0" stroke="#FAF6F0" stroke-width="3" fill="none"/>
+      <path d="M 14,-46 L -8,0" stroke="#FAF6F0" stroke-width="3" fill="none"/>
+      <!-- Waist Sash Tied in Front -->
+      <rect x="-18" y="0" width="36" height="7" fill="#8B2624" rx="2"/>
+      <path d="M -4,7 L -8,32" stroke="#8B2624" stroke-width="2.5"/>
+      <path d="M 4,7 L 0,35" stroke="#8B2624" stroke-width="2.5"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Áo Giao Lĩnh Đại Việt</text>
+</svg>

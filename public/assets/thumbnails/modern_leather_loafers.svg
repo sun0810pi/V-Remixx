@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_modern_leather_loafers" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_modern_leather_loafers" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2C221E"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_modern_leather_loafers" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_modern_leather_loafers)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#2C221E" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Modern Polished Chunky Platform Loafer -->
+      <path d="M -38,-8 C -15,-12 20,-10 36,0 C 40,4 38,16 34,16 C 15,16 -20,16 -34,14 C -38,10 -38,-4 -38,-8 Z" fill="#1C1816"/>
+      <!-- Platform Lug Sole -->
+      <rect x="-36" y="14" width="70" height="12" rx="3" fill="#2C221E"/>
+      <line x1="-24" y1="26" x2="-24" y2="20" stroke="#1A1513" stroke-width="2"/>
+      <line x1="-8" y1="26" x2="-8" y2="20" stroke="#1A1513" stroke-width="2"/>
+      <line x1="8" y1="26" x2="8" y2="20" stroke="#1A1513" stroke-width="2"/>
+      <line x1="24" y1="26" x2="24" y2="20" stroke="#1A1513" stroke-width="2"/>
+      <!-- Front Penny Strap -->
+      <rect x="0" y="-8" width="16" height="5" fill="#3D3531" rx="1"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Giày Loafer Da Bóng</text>
+</svg>

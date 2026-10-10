@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_nhanh_sen_ngoc" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_nhanh_sen_ngoc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CF8481"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_nhanh_sen_ngoc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_nhanh_sen_ngoc)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#CF8481" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Fresh Lotus Blossom, Bud and Stem -->
+      <path d="M -2,10 L -4,55" stroke="#2D5A47" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 8,15 L 6,52" stroke="#234B3A" stroke-width="3" stroke-linecap="round"/>
+      <!-- Broad Lotus Leaf -->
+      <path d="M -25,25 C -35,15 -25,5 -10,12 C -6,22 -15,26 -25,25 Z" fill="#24553F"/>
+      <!-- Lotus Flower Bud -->
+      <g transform="translate(0, -5)">
+        <path d="M -8,12 C -18,-5 -6,-22 4,-26 C 14,-22 26,-5 16,12 Z" fill="#FAF6F0" stroke="#CF8481" stroke-width="1.2"/>
+        <path d="M 4,-20 Q 4,-5 4,10" stroke="#CF8481" stroke-width="1.5" fill="none"/>
+        <path d="M -2,-12 Q -6,0 -4,8" stroke="#E28F95" stroke-width="1.2" fill="none"/>
+        <path d="M 10,-12 Q 14,0 12,8" stroke="#E28F95" stroke-width="1.2" fill="none"/>
+      </g>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Cành Sen Hồ Tây</text>
+</svg>

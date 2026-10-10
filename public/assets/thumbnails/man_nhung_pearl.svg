@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg_man_nhung_pearl" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FAF5EC"/>
+    </radialGradient>
+    <linearGradient id="silk_man_nhung_pearl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B2624"/>
+      <stop offset="100%" stop-color="#1A1513" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="gold_man_nhung_pearl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9E8B6"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA8222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Fashion Studio Card Background -->
+  <rect width="200" height="200" rx="16" fill="url(#bg_man_nhung_pearl)"/>
+  <rect x="5" y="5" width="190" height="190" rx="13" fill="none" stroke="#EAE0D2" stroke-width="1.2"/>
+  <circle cx="100" cy="92" r="56" fill="#8B2624" fill-opacity="0.08"/>
+
+  <!-- Centered Isolated Garment Illustration -->
+  <g transform="translate(100, 92)">
+    
+      <!-- Velvet Crown Embellished with Pearls -->
+      <ellipse cx="0" cy="0" rx="42" ry="25" fill="#8B2624"/>
+      <ellipse cx="0" cy="0" rx="34" ry="18" fill="#FAF5EC"/>
+      <ellipse cx="0" cy="0" rx="42" ry="25" fill="none" stroke="url(#gold_man_nhung_pearl)" stroke-width="2.5"/>
+      <!-- Hand Sewn Pearls Ring -->
+      <circle cx="38.0" cy="0.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="32.9" cy="11.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="19.0" cy="19.1" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="0.0" cy="22.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="-19.0" cy="19.1" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="-32.9" cy="11.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="-38.0" cy="0.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="-32.9" cy="-11.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="-19.0" cy="-19.1" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="-0.0" cy="-22.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="19.0" cy="-19.1" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/><circle cx="32.9" cy="-11.0" r="2.8" fill="#FAF6F0" stroke="#D1C7BA" stroke-width="0.6"/>
+    
+  </g>
+
+  <!-- Editorial Typographic Label -->
+  <text x="100" y="176" font-family="serif" font-size="11" font-weight="600" fill="#3D2820" text-anchor="middle" letter-spacing="0.5">Mấn Nhung Đính Ngọc</text>
+</svg>
